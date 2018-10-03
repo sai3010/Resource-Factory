@@ -87,8 +87,28 @@
     color: black !important;
 }
 ul.a {
-    list-style-type: circle;
+    list-style-type: circle;   
+}
+.border
+{
+    border-left: 3px solid;
+    border-right:1px solid #97D9E1;
 }
 .a {
     margin-left: 5%;
+}
+.atag
+{
+    color: black;
+}
+.atag:hover
+{
+    text-decoration: underline;
+}
+.head
+{
+    font-size: 2em;
+    border-bottom: 1px solid #ccc;
+    font-family: Arvo, Monaco, serif;
+    line-height: 1.3;
 }
