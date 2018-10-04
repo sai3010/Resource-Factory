@@ -1,57 +1,526 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+<html>
+
+<head>
+    <title>Resource Factory</title>
+    <meta charset="utf-8">
+    <meta name="description" content=""/>
+    <meta property="og:title" content="Resource Factory" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="img/favicon1024.png" />
+    <link rel="shortcut icon" href="img/favicon.ico" type=”image/x-icon” />
+    <meta name="theme-color" content="#141E30">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="css/index.css"> 
+    <link rel="stylesheet" href="css/index.css">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-    <body>
-        <section id="home">
-                <div class="title">
-                    Resource Factory
-                </div>
-                <div class="sub_title">
-                This website will house useful resources required for Full Stack Development and Android
-                </div>
-                <div class="icon">
-                      <a class="iref" href="#"><i class="fa fa-github fa-5x"></i></a>
-                </div>
-        </section>
-        <section>
-                <div class="row">
-                        <div class="col s12">
-                                <ul id="tabs-swipe-demo" class="tabs">
-                                        <li class="tab col s3"><a class="active" href="#test-swipe-1">Web Dev</a></li>
-                                        <li class="tab col s3"><a  href="#test-swipe-2">Test 2</a></li>
-                                        <li class="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
-                                      </ul>
-                                      <div id="test-swipe-1" class="col s12 ">
-                                          <div class="container">
-                                        <section id="js">
-                                                <div class="row">
-                                                     <p >JavaScript/jquery Frameworks</p>
-                                                     <ul class="a">
-                                                         <a target="_blank" href="https://projects.lukehaas.me/scrollify/"><li>Scrollify</li></a>
-                                                     </ul>
-                                                </div>
-                                        </section>
-                                           
-                                          </div>
-                                      </div>
-                                      <div id="test-swipe-2" class="col s12 red">Test 2</div>
-                                      <div id="test-swipe-3" class="col s12 green">Test 3</div>
-                      </div>
-        </section>
+<body>
+    <section id="home">
+        <div class="title">
+            Resource Factory
+        </div>
+        <div class="sub_title">
+            You're at the right place for useful resources regarding Full Stack Development and Android
+        </div>
+        <div class="icon">
+            <a class="iref" href="#"><i class="fa fa-github fa-5x"></i></a>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col s12">
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a class="active" href="#test-swipe-1">Web Dev</a></li>
+                    <li class="tab col s3"><a href="#test-swipe-2">Android</a></li>
+                    <li class="tab col s3"><a href="#test-swipe-3">Blogs</a></li>
+                    <li class="tab col s3"><a href="#test-swipe-3">E-Books</a></li>
+                </ul>
+                <div id="test-swipe-1" class="col s12 ">
+                    <div class="container">
+                        <section id="js">
+                            <div class="row">
+                                <p class="head">Frameworks</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="http://next.materializecss.com/">
+                                            <li>Materializecss</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://getbootstrap.com/">
+                                            <li>Bootstrap</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://vmware.github.io/clarity/">
+                                            <li>Clarity</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://idangero.us/swiper/api/">
+                                            <li>Swiper</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://mdbootstrap.com/">
+                                            <li>MD Bootstrap</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://purecss.io/">
+                                            <li>Purecss</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head"> Git Code Management</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://github.com/">
+                                            <li>Github</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://bitbucket.org/">
+                                            <li>Bitbucket</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://about.gitlab.com/">
+                                            <li>Gitlab</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">JavaScript/Jquery Frameworks</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://projects.lukehaas.me/scrollify/">
+                                            <li>Scrollify</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://aerolab.github.io/midnight.js/">
+                                            <li>Midnight.js</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://mattboldt.com/demos/typed-js/">
+                                            <li>Typed Js</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://safi.me.uk/typewriterjs/">
+                                            <li>Typewriter Js</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://owlcarousel2.github.io/OwlCarousel2/">
+                                            <li>Owl Carousel</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://bxslider.com/">
+                                            <li>Bxslider</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://imakewebthings.com/waypoints/">
+                                            <li>Waypoint</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://mynameismatthieu.com/WOW/index.html">
+                                            <li>Wow Js</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://idangero.us/swiper/">
+                                            <li>Swipper</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://howlerjs.com/">
+                                            <li>Howler-Js</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://paperjs.org/">
+                                            <li>Paper Js</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://github.com/bfintal/Counter-Up">
+                                            <li>Counter-up</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://github.com/kopiro/siriwavejs">
+                                            <li>Siriwave</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://medium.com/@richardoosterhof/how-to-optimize-your-site-for-rich-previews-527ed13a6d69">
+                                            <li>Rich link</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://progressbarjs.readthedocs.io/en/latest/">
+                                            <li>Progress Bar Js</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://loading.io/progress/">
+                                            <li>Loading Bar Js</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://leocs.me/menuspy/#usage">
+                                            <li>Smooth Scroll (Menu Highlighting)</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://hammerjs.github.io/">
+                                            <li>Hammer JS</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://github.com/alvarotrigo/fullPage.js">
+                                            <li>Full page</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://github.com/Robaum/Vertical-Dot-Navigation">
+                                            <li>Vertical-Dot-Navigation</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://photoswipe.com/">
+                                            <li>Photoswipe</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://vincentgarreau.com/particles.js/">
+                                            <li>Particle Js - Creating Particles</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://github.com/ZachSaucier/Disintegrate">
+                                            <li>Disintegrate JS</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://github.com/qrohlf/trianglify">
+                                            <li>Traingle Js </li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://github.com/hustcc/canvas-nest.js/">
+                                            <li>Canvas Nest JS</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://revealjs.com/#/">
+                                            <li>Reveal Js - HTML PPT</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://vincentgarreau.com/particles.js/">
+                                            <li>Particle Js - Creating Particles</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">UI / Design Mockups</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://smartmockups.com">
+                                            <li>Smartmockups</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://moqups.com/">
+                                            <li>Moqups</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://zeplin.io/">
+                                            <li>Zeplin</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://figma.com">
+                                            <li>Figma</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://www.pexels.com/">
+                                            <li>Pexels</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://unsplash.com/">
+                                            <li>Unsplash</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://www.freepik.com/">
+                                            <li>Freepik</li>
+                                        </a>
+                                        <a class="atag" target="_blank">
+                                            <li>meta name="theme-color" content="#000" - Browser Theme</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://coverr.co/">
+                                            <li>Coverr</li>
+                                        </a>
 
-      <!--JavaScript at end of body for optimized loading-->
-      <script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      <script src="js/index.js"></script>
-    </body>
-  </html>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Mobile Responsiveness</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://google-developer-training.gitbooks.io/progressive-web-apps-ilt-codelabs/content/">
+                                            <li>Progressive Web Apps</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://buddycss.com/">
+                                            <li>Buddycss</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://embedresponsively.com/">
+                                            <li>Embed Responsively</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">API's for SMS</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://www.twilio.com/docs/quickstart">
+                                            <li>Twilio</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://textbelt.com/">
+                                            <li>Textbelt</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Editors</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://code.visualstudio.com/">
+                                            <li>VS Code</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://www.sublimetext.com/3">
+                                            <li>Sublime</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://atom.io/">
+                                            <li>Atom</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://brackets.io/">
+                                            <li>Brackets</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Color Pallets</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="http://www.color-hex.com/color-palettes/">
+                                            <li>Color-palettes</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://www.materialpalette.com/colors">
+                                            <li>Materialpalette</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://www.colorzilla.com/\">
+                                            <li>Colorzilla</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://flatuicolors.com/">
+                                            <li>Flatuicolors</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://colorhunt.co/">
+                                            <li>Colorhunt</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://clrs.cc/">
+                                            <li>Clrs</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://colours.neilorangepeel.com/">
+                                            <li>Colours</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://github.com/codefog/jquery-gradientify">
+                                            <li>Gradientify Js</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://cssgradient.io/">
+                                            <li>Css Gradient</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Icons</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://fontawesome.com/get-started">
+                                            <li>Font-Awesome</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://icons8.com/icon/set/jobs/all">
+                                            <li>Icons8</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://materializecss.com/icons.html">
+                                            <li>Materializecss-Icons</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Chatbots</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://collect.chat/">
+                                            <li>Collect chat</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://www.tawk.to/">
+                                            <li>Tawk</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Animations</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://joaopereirawd.github.io/animatedModal.js/">
+                                            <li>Modal Animate</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://johnpolacek.github.io/superscrollorama/">
+                                            <li>Super Scroll</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://anijs.github.io/">
+                                            <li>Anijs</li>
+                                        </a>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Email (without backend)</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://formspree.io/">
+                                            <li>Formspree</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://postmail.invotes.com/">
+                                            <li>Postmail</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://getsimpleform.com">
+                                            <li>Getsimpleform</li>
+                                        </a>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Graphs</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="http://www.chartjs.org">
+                                            <li>Chart JS</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://plot.ly/python/">
+                                            <li>Plotly</li>
+                                        </a>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Performance / Optimization</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://tinypng.com/">
+                                            <li>Tiny PNG - Image Optimization</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://imageresize.org">
+                                            <li>Imageresize -Image Optimization</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/">
+                                            <li>Gzip Compression</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://checkgzipcompression.com/">
+                                            <li>Gzip Checker</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://varvy.com/sitemap.html">
+                                            <li>Varvy</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://www.seoptimer.com/">
+                                            <li>SEO Optimer</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://www.semrush.com/features/site-audit/">
+                                            <li>SEM Rush</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://app.bitly.com/">
+                                            <li>Bit.ly - Url optimer</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="http://javascriptobfuscator.com/">
+                                            <li>JavaScript Obfuscator - Encode JS</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://jennamolby.com/how-to-prevent-form-spam-by-using-the-honeypot-technique/">
+                                            <li>Honey Pot</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">BaaS</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://firebase.google.com/">
+                                            <li>Firebase</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://onesignal.com/">
+                                            <li>One Signal</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://pushbots.com/">
+                                            <li>Push bots</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Hosting / Domain </p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://www.heliohost.org/">
+                                            <li>Heliohost (free)</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://in.godaddy.com">
+                                            <li>Godaddy</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://www.namecheap.com">
+                                            <li>Namecheap</li>
+                                        </a>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="head">Interview Preparation </p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://www.adithyabhat.com/interview-cookbook">
+                                            <li>Interview-Cookbook</li>
+                                        </a>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+                <div id="test-swipe-2" class="col s12">
+                    <div class="container">
+                        <section id="js">
+                            <div class="row">
+                                <p class="head">General</p>
+                                <div class="border">
+                                    <ul class="a">
+                                        <a class="atag" target="_blank" href="https://www.androidhive.info/">
+                                            <li>Android Hive</li>
+                                        </a>
+                                        <a class="atag" target="_blank" href="https://github.com/81813780/AVLoadingIndicatorView">
+                                            <li>Loaders</li>
+                                        </a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                </div>
+                <div id="test-swipe-3" class="col s12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="border">
+                                <ul class="a">
+                                    <a class="atag" target="_blank" href="https://medium.freecodecamp.org/200-universities-just-launched-560-free-online-courses-heres-the-full-list-d9dd13600b04">
+                                        <li>University Free Online Courses</li>
+                                    </a>
+                                    <a class="atag" target="_blank" href="https://medium.freecodecamp.org/css-flex-an-interactive-tutorial-19ff6e93558">
+                                        <li>CSS Flex Interactive Tutorial</li>
+                                    </a>
+                                    <a class="atag" target="_blank" href="https://medium.freecodecamp.org/how-to-launch-a-site-on-aws-for-free-in-15-minutes-7b3ce5d8d053">
+                                        <li>Launch a Site on AWS</li>
+                                    </a>
+                                    <a class="atag" target="_blank" href="https://medium.freecodecamp.org/660-free-online-programming-computer-science-courses-you-can-start-in-october-99725c056812?gi=8e2a658f7e6">
+                                        <li>CS Courses</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 s12 contr">
+                    <h5 class="white-text">Contributors</h5>
+                    <ul>
+                        <li><a class="col l3 m3 grey-text text-lighten-3" href="https://github.com/sai3010">Sai R</a></li>
+                        <li><a class="col l3 m3 grey-text text-lighten-3" href="https://github.com/spoorthishivaswamy">Spoorthi S</a></li>
+                        <li><a class="col l3 m3 grey-text text-lighten-3" href="https://github.com/adithyabhat17">Adithya NR</a></li>
+                        <li><a class="col l3 m3 grey-text text-lighten-3" href="https://github.com/bapspatil">Bapusaheb Patil</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Resource Factory
+                <a class="grey-text text-lighten-4 right" href="#!">Crafted by : Sai R</a>
+            </div>
+        </div>
+    </footer>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

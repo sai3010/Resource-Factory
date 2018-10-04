@@ -1,0 +1,20 @@
+hammer js
+https://www.seoptimer.com
+https://github.com/alvarotrigo/fullPage.js
+
+https://github.com/Robaum/Vertical-Dot-Navigation
+http://coverr.co/
+purecss
+http://photoswipe.com/
+particle js
+disintegrate js
+gradientify js
+https://cssgradient.io
+scrolling  :https://codepen.io/anon/pen/pOXOZY
+auroral css
+http://instafeedjs.com/
+triangles js
+canvas nest js
+reveal js
+http://embedresponsively.com/
+https://alvarotrigo.com/fullPage/examples/navigationV.html#firstPage
