@@ -24,6 +24,7 @@
 }
 .icon {
     text-align: center;
+    margin-top: 25px;
 }
 @media(min-width:801px) and (max-width:1000px) {
     .title {
